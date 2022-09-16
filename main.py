@@ -1,7 +1,7 @@
 import tkinter
 import tkinter.font as tkFont
 from datetime import datetime
-from tkinter import *
+from tkinter import VERTICAL, Scrollbar, BooleanVar
 from tkinter.filedialog import asksaveasfile, askopenfile
 from tkinter.simpledialog import askinteger, askstring
 from tkinter.messagebox import showerror
