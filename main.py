@@ -88,7 +88,7 @@ def open_win():
                              command=overstrike_off)
 
     menubar.add_cascade(label="Файл", menu=filemenu)
-    menubar.add_cascade(label="Информация", command=info)
+    menubar.add_cascade(label="Информацiя", command=info)
     menubar.add_cascade(label="Шрифт", menu=fontmenu)
     newwindow.config(menu=menubar)
 
